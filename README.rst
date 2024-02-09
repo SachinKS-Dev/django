@@ -12,7 +12,7 @@ Project setup instructions here.
     4. add dependencies:- poetry add <packages>
     5. run server:- poetry run python manage.py runserver
 
-MakeFile setup.
+MakeFile setup for windows.
     1. install mingw from https://sourceforge.net/projects/mingw/
     2. install reference https://www.youtube.com/watch?v=JsO58opI3SQ
     3. documentation https://medium.com/@samsorrahman/how-to-run-a-makefile-in-windows-b4d115d7c516
@@ -24,3 +24,4 @@ MakeFile setup.
 
 Split django settings
     1. poetry add django-split-settings PyYAML
+    2. add local settings
