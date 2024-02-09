@@ -25,3 +25,11 @@ MakeFile setup for windows.
 Split django settings
     1. poetry add django-split-settings PyYAML
     2. add local settings
+
+Logging
+
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.debug("This is a debug message")
+    logger.info("This is a info message")
+    logger.warning("This is a warning message")
