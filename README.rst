@@ -33,3 +33,6 @@ Logging
     logger.debug("This is a debug message")
     logger.info("This is a info message")
     logger.warning("This is a warning message")
+
+Docker
+    docker system prune --all

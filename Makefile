@@ -29,5 +29,9 @@ runserver:
 superuser:
 	poetry run python -m core.manage createsuperuser
 
+.PHONY: up-dependencies-only
+up-dependencies-only:
+	docker-compose -f docker-compose.dev.yml up --force-recreate db
+
 .PHONEY: update
 update: install migrate install-pre-commit;
